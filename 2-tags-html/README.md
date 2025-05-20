@@ -1,3 +1,6 @@
+![\[Image\]()](https://github.com/ingrydf12/fundamentos-web-guia/blob/master/docs/introducao.PNG?raw=true)
+
+
 # Tags e estrutura
 
 [Referências](https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos)
