@@ -50,3 +50,21 @@ src -> referencia localmente no projeto ou em endereços de imagens.
 
 Você pode visualizar mais e ver detalhes sobre as tags e respectivos atributos aqui:
 [Guia de tags - Hostinger](https://www.hostinger.com.br/tutoriais/codigos-html-prontos-guia-pdf)
+
+# O que são class e id nas propriedades das tags HTML?
+
+Classes são atributos globais no HTML que permitem agrupar elementos com características ou funções semelhantes, facilitando a estilização e também, manipulações em Javascript. Podem ser repetidas várias vezes em um mesmo documento HTML e é uma boa prática usar nomes que descrevam o propósito semântico do elemento, em vez de sua representação.
+
+Já os IDs, como seu próprio nome diz, é um identificador exclusivo e pela própria documentação do MDN Docs:
+-  Seu objetivo é identificar o elemento ao navegar por âncoras (usando um identificador de fragmento), quando utilizar scripts ou estilizando (com CSS).
+
+## E qual a diferença? Qual devo usar em que contextos?
+
+Não existe um certo ou errado nisso, mas você pode seguir as boas práticas de programação. 
+
+- Classes podem ser repetidas, mas IDs são únicos.
+
+Normalmente utilizamos classes para elementos que podem repetir seu estilo ou que não precisam de algum tipo de interação. Caso queira particularizar o uso de determinada tag, usa-se ID, como exemplo é uma interação ou microanimação para aquela tag.
+
+- Você pode usar a mesma classe para vários elementos;
+- Você pode usar várias classes para um mesmo elemento.
